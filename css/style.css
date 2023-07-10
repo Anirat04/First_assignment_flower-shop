@@ -25,6 +25,20 @@ img {
     margin: 0 auto;
 }
 
+/* head text css starts */
+.h-text{
+    text-align: center;
+}
+
+.h-text h2 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+/* head text css ends */
+
 
 /* paragraph css starts */
 p {
@@ -41,7 +55,7 @@ p {
 .btn {
     border-radius: 8px;
     background: #E55473;
-    padding: 20px 43px;
+    /* padding: 20px 43px; */
     border: 0;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -57,12 +71,12 @@ p {
     text-transform: capitalize;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #FFF;
     border: 1px solid #E55473;
 }
 
-.btn:hover a{
+.btn:hover a {
     color: #E55473;
 }
 
@@ -79,25 +93,47 @@ header #banner .banner-bg {
     background-color: rgba(229, 84, 115, 0.100)
 }
 
-header #banner .banner-bg .banner{
+header #banner .banner-bg .banner {
     display: flex;
     justify-content: space-between;
 }
 
-header #banner .banner-bg .banner .banner_content{
+header #banner .banner-bg .banner .banner_content {
     max-width: 708px;
     padding-top: 197px;
 }
 
-header #banner .banner-bg .banner .banner_content h1{
+header #banner .banner-bg .banner .banner_content h1 {
     color: #272727;
     font-family: Lato;
     font-size: 80px;
     font-weight: 800;
 }
 
-header #banner .banner-bg .banner .banner_content .banner_img img{
+header #banner .banner-bg .banner .banner_content .banner_img img {
     width: 100%;
 }
 
 /* banner css ends */
+
+/* discount section starts */
+#discount .discount-bg{
+    background-color: rgba(229, 84, 115, 0.100);
+    margin-top: 128px;
+}
+
+#discount .discount-bg .discount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+#discount .discount-bg .discount .discount-img{
+    margin-right: 187px;
+}
+
+.h2_span{
+    color: #E55473;
+}
+/* discount section ends */
