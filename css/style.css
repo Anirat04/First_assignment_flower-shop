@@ -116,6 +116,51 @@ header #banner .banner-bg .banner .banner_content .banner_img img {
 
 /* banner css ends */
 
+/* featured section css starts */
+#featured .featured-bg{
+    margin-top: 178px;
+}
+
+#featured .featured-bg .featured .featured_content{
+    margin-top: 48px;
+}
+
+#featured .featured-bg .featured .featured_content .flower .flower-img {
+    width: 464px;
+    height: 538px;
+}
+
+#featured .featured-bg .featured .featured_content .flower .flower-img img {
+    width: 310px;
+    height: 428px;
+}
+
+#featured .featured-bg .featured .featured_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#featured .featured-bg .featured .featured_content .flower .flower-img {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 300px 300px 0px 0px;
+}
+
+#featured .featured-bg .featured .featured_content .flower .flower-text {
+    display: flex;
+    justify-content: center;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+
+/* featured section css ends */
+
 /* discount section css starts */
 #discount .discount-bg {
     background-color: rgba(229, 84, 115, 0.100);
