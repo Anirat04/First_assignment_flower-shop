@@ -1,4 +1,4 @@
-/* common css starts */
+/*================================ common css starts ==========================*/
 * {
     margin: 0;
     padding: 0;
@@ -101,7 +101,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-/* common css ends */
+/*===================================== common css ends ================================*/
 
 /* nav-bar css starts */
 #nav-bar .nav-bg {
