@@ -16,7 +16,7 @@ img {
     vertical-align: center;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -60,7 +60,8 @@ p {
     border-radius: 8px;
     background: #E55473;
     /*padding: 20px 43px;
-    */border: 0;
+    */
+    border: 0;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -103,31 +104,31 @@ body {
 /* common css ends */
 
 /* nav-bar css starts */
-#nav-bar .nav-bg{
+#nav-bar .nav-bg {
     background-color: rgba(229, 84, 115, 0.100);
     padding-top: 40px;
 }
 
-#nav-bar .nav-bg .nav .nav-po{
+#nav-bar .nav-bg .nav .nav-po {
     /* position: fixed; */
     display: flex;
     justify-content: space-between;
 }
 
-#nav-bar .nav-bg .nav .nav-logo{
+#nav-bar .nav-bg .nav .nav-logo {
     width: 40%;
 }
 
-#nav-bar .nav-bg .nav .nav-menu{
+#nav-bar .nav-bg .nav .nav-menu {
     width: 60%;
 }
 
-#nav-bar .nav-bg .nav .nav-menu ul{
+#nav-bar .nav-bg .nav .nav-menu ul {
     display: flex;
     justify-content: space-between;
 }
 
-#nav-bar .nav-bg .nav .nav-menu ul li{
+#nav-bar .nav-bg .nav .nav-menu ul li {
     padding: 20px 43px;
     margin-left: 10px;
     transition: all linear 0.3s;
@@ -137,7 +138,7 @@ body {
     -o-transition: all linear 0.3s;
 }
 
-#nav-bar .nav-bg .nav .nav-menu ul li:hover{
+#nav-bar .nav-bg .nav .nav-menu ul li:hover {
     background-color: #E55473;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -146,19 +147,19 @@ body {
     -o-border-radius: 5px;
 }
 
-#nav-bar .nav-bg .nav .nav-menu ul a:hover li{
+#nav-bar .nav-bg .nav .nav-menu ul a:hover li {
     color: white;
 }
 
-#nav-bar .nav-bg .nav .nav-menu ul button a{
+#nav-bar .nav-bg .nav .nav-menu ul button a {
     color: white;
 }
 
-#nav-bar .nav-bg .nav .nav-menu ul button:hover a{
+#nav-bar .nav-bg .nav .nav-menu ul button:hover a {
     color: #E55473;
 }
 
-#nav-bar .nav-bg .nav .nav-menu ul a{
+#nav-bar .nav-bg .nav .nav-menu ul a {
     color: #E55473;
     font-family: Lato;
     font-size: 20px;
@@ -170,6 +171,7 @@ body {
     -ms-transition: all linear 0.3s;
     -o-transition: all linear 0.3s;
 }
+
 /* nav-bar css ends */
 
 /* banner css starts */
@@ -201,11 +203,11 @@ header #banner .banner-bg .banner .banner_content .banner_img img {
 /* banner css ends */
 
 /* featured section css starts */
-#featured .featured-bg{
+#featured .featured-bg {
     margin-top: 178px;
 }
 
-#featured .featured-bg .featured .featured_content{
+#featured .featured-bg .featured .featured_content {
     margin-top: 48px;
 }
 
@@ -231,7 +233,7 @@ header #banner .banner-bg .banner .banner_content .banner_img img {
     border-radius: 300px 300px 0px 0px;
 }
 
-#featured .featured-bg .featured .featured_content .flower .flower-text {
+#featured .featured-bg .featured .featured_content .flower .flower-text, .flower-text a {
     display: flex;
     justify-content: center;
     color: #272727;
@@ -244,6 +246,37 @@ header #banner .banner-bg .banner .banner_content .banner_img img {
 }
 
 /* featured section css ends */
+
+/* svg section css starts */
+#svg .svg-bg .svg {
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 128px;
+    padding: 86px 0px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#svg .svg-bg .svg .d1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#svg .svg-bg .svg .d1 h4 {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 24px;
+}
+
+/* svg section css ends */
 
 /* discount section css starts */
 #discount .discount-bg {
@@ -284,7 +317,7 @@ header #banner .banner-bg .banner .banner_content .banner_img img {
     -o-border-radius: 10px;
 }
 
-#subscribe .subscribe .subscribe_form input {
+#subscribe .subscribe .subscribe_form input[type="email"] {
     height: 58px;
     border: none;
     color: rgba(39, 39, 39, 0.60);
@@ -302,10 +335,36 @@ header #banner .banner-bg .banner .banner_content .banner_img img {
     -webkit-border-radius: 10px;
 }
 
+#subscribe .subscribe .subscribe_form input[type="submit"]{
+    color: #FFF;
+    background-color: #E55473;
+    border: none;
+    padding: 18.29px 31px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    border-radius: 5px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#subscribe .subscribe .subscribe_form input[type="submit"]:hover{
+    background-color: #FFF;
+    color: #E55473;
+    border: 1px solid #E55473;
+}
 /* subscribe section css ends */
 
 /* footer section starts */
 #footer .footer-bg {
     background-color: #111010;
 }
+
 /* footer section ends */
